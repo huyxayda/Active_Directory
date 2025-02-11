@@ -1,0 +1,26 @@
+{
+    "domain": "homelab.local",
+
+    "groups" : [
+        {
+            "name": "Employees"
+        }
+    ],
+
+    "users": [
+        {
+            "name": "Uzumaki Naruto",
+            "password": "P@ssw0rd789",
+            "group": [
+                "Employees"
+            ]
+        },
+        {
+            "name": "Uchiha Sasuke",
+            "password": "P@ssw0rdABC",
+            "group": [
+                "Employees"
+            ]
+        }
+    ]
+}
